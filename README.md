@@ -1,5 +1,5 @@
 # iOS 二维码、条形码 
-Zbar扫码功能及UI封装，感谢https://github.com/MxABC/LBXScan
+系统自带扫码及识别本地相册封装，（IOS8后可用）扫码功能及UI封装，感谢https://github.com/MxABC/LBXScan
 
 # 使用介绍
 ```obj-c
