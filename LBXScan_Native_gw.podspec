@@ -9,8 +9,8 @@ Pod::Spec.new do |spec|
     spec.source       = {:git => 'https://github.com/a7510774/LBXScanNative.git', :tag => spec.version}
     spec.requires_arc = true
 
-    spec.source_files = 'LBXScanNative/LBXScanNative/JMScanToWxZhifubao(LBX系统自带封装IOS8)/*','LBXScanNative/LBXScanNative/LBXNative/*','LBXScanNative/LBXScanNative/LBXUI/*.{h,m}'
-    spec.resource     = 'LBXScanNative/LBXScanNative/LBXUI/CodeScan.bundle'
+    spec.source_files = 'LBXScanNative/JMScanToWxZhifubao(LBX系统自带封装IOS8)/*','LBXScanNative/LBXNative/*','LBXScanNative/LBXUI/*.{h,m}'
+    spec.resources     = 'LBXScanNative/LBXUI/CodeScan.bundle'
     spec.ios.frameworks = 'AVFoundation'
 
 end
